@@ -1,5 +1,5 @@
 /* Service Worker: oflayn ishlash. Fayllarni o'zgartirsangiz VERSION raqamini oshiring. */
-const VERSION='split-v2';
+const VERSION='split-v3';
 const FILES=['./','manifest.json','css/style.css','js/i18n.js','js/core.js','js/ui.js','js/receipt.js','js/pwa.js','js/main.js','assets/team.svg','assets/coins.svg','assets/revenue.svg','icons/icon.svg','icons/icon-192.png','icons/icon-512.png'];
 /* Redirect bo'lgan javobni brauzer sahifa sifatida qabul qilmaydi (ERR_FAILED), shuning uchun uni tozalaymiz */
 const clean=async r=>r.redirected?new Response(await r.blob(),{status:r.status,statusText:r.statusText,headers:r.headers}):r;
