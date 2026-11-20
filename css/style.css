@@ -90,3 +90,4 @@ nav button.on{background:var(--grad);color:#fff}
 .toast{position:fixed;left:50%;top:calc(18px + env(safe-area-inset-top));transform:translate(-50%,-30px);opacity:0;background:#2a1a4a;border:1px solid var(--line);padding:12px 20px;border-radius:99px;font-size:14px;z-index:99;pointer-events:none;transition:.3s}
 .toast.on{opacity:1;transform:translate(-50%,0)}
 @media(prefers-reduced-motion:reduce){*,body::before{animation:none!important;transition:none!important}}
+.dl{display:none!important}
